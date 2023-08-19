@@ -1,0 +1,49 @@
+site_name: Slix
+theme:
+  name: material
+  logo: slix256.png
+  favicon: slix256.png
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.instant
+    - navigation.tracking
+    - content.code.copy
+
+repo_url: https://github.com/slix-tools
+#extra_css:
+#  - extra.css
+markdown_extensions:
+  - md_in_html
+  - footnotes
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      anchorlink: true
+      baselevel: 1
+      toc_depth: 4
+  - tables
+  - attr_list
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.extra
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tilde
+plugins:
+#  - search
+#  - section-index
+  - exclude-search
+  - tags
+nav:
+  - Home: index.md
+  - Getting Started: gettingstarted.md
