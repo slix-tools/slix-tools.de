@@ -10,7 +10,7 @@ theme:
     - navigation.instant
     - navigation.tracking
     - content.code.copy
-
+use_directory_urls: false
 repo_url: https://github.com/slix-tools
 #extra_css:
 #  - extra.css
